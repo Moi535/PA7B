@@ -28,6 +28,11 @@ public class ComputeChange{
     //numberOfPennies
     int numberOfPennies = cents;
 
-    System.out.println("Your amount" + amount +"consists of \n" + "\t" + numberOfDollars + "dollars" + )
+    System.out.println("Your amount" + amount +"consists of \n" +
+    "\t" + numberOfDollars + "dollars" +
+    "\t" + numberOfQuarters + "quarters" +
+    "\t" + numberOfDimes + "dimes" +
+    "\t" + numberOfNickels + "nickels" +
+    "\t" + numberOfPennies + "Pennies");
   }
 }
