@@ -21,7 +21,11 @@
     this.numberOfStudents ++;
   }
   public void dropStudent(String student){
-    
+    for (int i=0; i <= this.Students.lenght-1; i++ ) {
+      this.students[i]=null;
+    }else{
+
+    }
   }
   public String[] getStudents(){
   return this.students;
